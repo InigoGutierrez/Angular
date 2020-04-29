@@ -39,6 +39,6 @@ export class CrudApiComponent implements OnInit{
 
     public DeleteData(){
         const url = "http://localhost:49528/api/Home/2";
-        this.http.delete(url).subscribe(data => console.log(data), err=>console.log("Error Faral"));
+        this.http.delete(url).subscribe(data => console.log(data), err=>console.log("Error Fatal"));
     }
 }
